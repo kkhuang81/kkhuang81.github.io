@@ -4,8 +4,62 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Publications - Keke Huang</title>
-  <meta name="description" content="Publications of Keke Huang." />
+  <meta name="description" content="Selected publications of Keke Huang." />
   <link rel="stylesheet" href="style.css" />
+  <style>
+    .pub-page {
+      max-width: 1040px;
+      margin: 0 auto;
+    }
+    .pub-title {
+      font-size: 2rem;
+      margin-bottom: 1.25rem;
+    }
+    .pub-subtitle {
+      color: #0f4c5c;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      font-weight: 500;
+    }
+    .pub-list {
+      margin: 0;
+      padding-left: 1.6rem;
+    }
+    .pub-list > li {
+      margin-bottom: 1.2rem;
+      padding-left: 0.2rem;
+    }
+    .paper-title-line {
+      line-height: 1.45;
+      font-size: 1.02rem;
+    }
+    .paper-title-line strong {
+      font-weight: 700;
+    }
+    .paper-links a,
+    .paper-links span {
+      font-size: 0.96rem;
+      margin-left: 0.2rem;
+      white-space: nowrap;
+    }
+    .paper-links span {
+      color: #5c6b73;
+    }
+    .paper-authors {
+      margin-top: 0.45rem;
+      margin-left: 0.2rem;
+      line-height: 1.5;
+    }
+    .paper-venue {
+      margin-top: 0.3rem;
+      margin-left: 0.2rem;
+      line-height: 1.5;
+      font-style: italic;
+    }
+    .paper-venue strong {
+      font-style: normal;
+    }
+  </style>
 </head>
 <body>
   <header class="site-header">
@@ -18,55 +72,185 @@
     </div>
   </header>
 
-  <main class="container narrow">
+  <main class="container pub-page">
     <section>
-      <h1>Publications</h1>
-      <p>
-        A selected list is shown below. You may also view the full record on
-        <a href="https://dblp.org/pid/168/9593.html" target="_blank" rel="noopener noreferrer">DBLP</a>
-        or <a href="https://scholar.google.com/citations?hl=en&user=OsceCbcAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>.
-      </p>
-    </section>
+      <h1 class="pub-subtitle">Selected Publications (* indicates equal contributions)</h1>
 
-    <section>
-      <h2>2024</h2>
-      <ul class="paper-list long-list">
-        <li><a href="https://arxiv.org/abs/2410.17835" target="_blank" rel="noopener noreferrer">Optimal Streaming Algorithms for Multi-Armed Bandits</a>. Tianyuan Jin, <strong>Keke Huang</strong>, Jing Tang, Xiaokui Xiao. 2024.</li>
-        <li><a href="https://arxiv.org/abs/2405.12474" target="_blank" rel="noopener noreferrer">How Universal Polynomial Bases Enhance Spectral Graph Neural Networks: Heterophily, Over-smoothing, and Over-squashing</a>. <strong>Keke Huang</strong>, Yu Guang Wang, Ming Li, Pietro Liò. 2024.</li>
-        <li><a href="https://arxiv.org/abs/2403.07954" target="_blank" rel="noopener noreferrer">Optimizing Polynomial Graph Filters: A Novel Adaptive Krylov Subspace Approach</a>. <strong>Keke Huang</strong>, Wencai Cao, Hoang Ta, Xiaokui Xiao, Pietro Liò. 2024.</li>
-      </ul>
-    </section>
+      <ol class="pub-list">
+        <li>
+          <div class="paper-title-line"><strong>An Effective Method for Heterophilic GCL Methods With Regularization and Stabilization Techniques Enhanced High-Pass Filter.</strong>
+            <span class="paper-links"><span>[pdf]</span></span>
+          </div>
+          <div class="paper-authors">Han Chen, Yuhua Li, Yixiong Zou, <strong>Keke Huang</strong>, Rui Zhang, Ruixuan Li</div>
+          <div class="paper-venue">IEEE Transactions on Knowledge and Data Engineering <strong>(TKDE)</strong>, 2026.</div>
+        </li>
 
-    <section>
-      <h2>2023</h2>
-      <ul class="paper-list long-list">
-        <li><a href="https://dl.acm.org/doi/10.1145/3543507.3583520" target="_blank" rel="noopener noreferrer">Node-wise Diffusion for Scalable Graph Learning</a>. <strong>Keke Huang</strong>, Jing Tang, Juncheng Liu, Renchi Yang, Xiaokui Xiao. WWW 2023.</li>
-        <li><a href="https://arxiv.org/abs/2311.18177" target="_blank" rel="noopener noreferrer">An Effective Universal Polynomial Basis for Spectral Graph Neural Networks</a>. <strong>Keke Huang</strong>, Pietro Liò. 2023.</li>
-      </ul>
-    </section>
+        <li>
+          <div class="paper-title-line"><strong>ThriftLLM: On Cost-Effective Selection of Large Language Models for Classification Queries.</strong>
+            <span class="paper-links"><span>[pdf]</span><span>[code]</span></span>
+          </div>
+          <div class="paper-authors"><strong>Keke Huang</strong>, Yimin Shi, Dujian Ding, Yifei Li, Yang Fei, Laks Lakshmanan, and Xiaokui Xiao.</div>
+          <div class="paper-venue">Proceedings of the VLDB Endowment <strong>(PVLDB)</strong>, 2025.</div>
+        </li>
 
-    <section>
-      <h2>2021</h2>
-      <ul class="paper-list long-list">
-        <li><a href="https://proceedings.mlr.press/v139/jin21e.html" target="_blank" rel="noopener noreferrer">Almost Optimal Anytime Algorithm for Batched Multi-Armed Bandits</a>. Tianyuan Jin, Jing Tang, Pan Xu, <strong>Keke Huang</strong>, Xiaokui Xiao, Quanquan Gu. ICML 2021.</li>
-        <li><a href="https://dl.acm.org/doi/10.1145/3442381.3449954" target="_blank" rel="noopener noreferrer">Effective and Scalable Clustering on Massive Attributed Graphs</a>. Renchi Yang, Jieming Shi, Yin Yang, <strong>Keke Huang</strong>, Shiqi Zhang, Xiaokui Xiao. WWW 2021.</li>
-      </ul>
-    </section>
+        <li>
+          <div class="paper-title-line"><strong>How Universal Polynomial Bases Enhance Spectral Graph Neural Networks: Heterophily, Over-smoothing, and Over-squashing.</strong>
+            <span class="paper-links">
+              <a href="https://arxiv.org/abs/2405.12474" target="_blank" rel="noopener noreferrer">[pdf]</a>
+              <span>[code]</span><span>[video]</span>
+            </span>
+          </div>
+          <div class="paper-authors"><strong>Keke Huang</strong>, Yu Guang Wang, Ming Li, and Pietro Liò.</div>
+          <div class="paper-venue">Proceedings of the International Conference on Machine Learning <strong>(ICML)</strong>, 2024.</div>
+        </li>
 
-    <section>
-      <h2>2019–2017</h2>
-      <ul class="paper-list long-list">
-        <li><a href="https://arxiv.org/abs/1907.09668" target="_blank" rel="noopener noreferrer">Efficient Approximation Algorithms for Adaptive Seed Minimization</a>. Jing Tang, <strong>Keke Huang</strong>, Xiaokui Xiao, Laks V. S. Lakshmanan, Xueyan Tang, Aixin Sun, Andrew Lim. 2019.</li>
-        <li><a href="https://arxiv.org/abs/1910.13073" target="_blank" rel="noopener noreferrer">Efficient Approximation Algorithms for Adaptive Target Profit Maximization</a>. <strong>Keke Huang</strong>, Jing Tang, Xiaokui Xiao, Aixin Sun, Andrew Lim. 2019.</li>
-        <li><a href="https://www.vldb.org/pvldb/vol10/p913-huang.pdf" target="_blank" rel="noopener noreferrer">Revisiting the Stop-and-Stare Algorithms for Influence Maximization</a>. <strong>Keke Huang</strong>, Sibo Wang, Glenn S. Bevilacqua, Xiaokui Xiao, Laks V. S. Lakshmanan. PVLDB 2017.</li>
-      </ul>
-    </section>
+        <li>
+          <div class="paper-title-line"><strong>Scalable Continuous-time Diffusion Framework for Network Inference and Influence Estimation.</strong>
+            <span class="paper-links"><span>[pdf]</span><span>[Code]</span></span>
+          </div>
+          <div class="paper-authors"><strong>Keke Huang</strong>, Ruize Gao, Bogdan Cautis, and Xiaokui Xiao.</div>
+          <div class="paper-venue">Proceedings of the ACM Web Conference <strong>(TheWebConf)</strong>, 2024. <strong>[Oral Presentation]</strong></div>
+        </li>
 
-    <section>
-      <p class="note">
-        This page currently uses a selected and manually curated list for a clean academic homepage style.
-        You can later expand it into a full publication list, add tags, mark first-author papers, or separate conference and journal papers.
-      </p>
+        <li>
+          <div class="paper-title-line"><strong>Optimizing Polynomial Graph Filters: A Novel Adaptive Krylov Subspace Approach.</strong>
+            <span class="paper-links">
+              <a href="https://arxiv.org/abs/2403.07954" target="_blank" rel="noopener noreferrer">[pdf]</a>
+              <span>[Code]</span>
+            </span>
+          </div>
+          <div class="paper-authors"><strong>Keke Huang</strong>, Wencai Cao, Hoang Ta, Xiaokui Xiao, and Pietro Liò.</div>
+          <div class="paper-venue">Proceedings of the ACM Web Conference <strong>(TheWebConf)</strong>, 2024.</div>
+        </li>
+
+        <li>
+          <div class="paper-title-line"><strong>Node-wise Diffusion for Scalable Graph Learning.</strong>
+            <span class="paper-links">
+              <a href="https://dl.acm.org/doi/10.1145/3543507.3583520" target="_blank" rel="noopener noreferrer">[pdf]</a>
+              <span>[Code]</span>
+            </span>
+          </div>
+          <div class="paper-authors"><strong>Keke Huang</strong>, Jing Tang, Juncheng Liu, Renchi Yang, and Xiaokui Xiao.</div>
+          <div class="paper-venue">Proceedings of the ACM Web Conference <strong>(TheWebConf)</strong>, 2023.</div>
+        </li>
+
+        <li>
+          <div class="paper-title-line"><strong>Efficient and Effective Edge-wise Graph Representation Learning.</strong>
+            <span class="paper-links"><span>[pdf]</span></span>
+          </div>
+          <div class="paper-authors">Hewen Wang, Renchi Yang, <strong>Keke Huang</strong>, and Xiaokui Xiao.</div>
+          <div class="paper-venue">Proceedings of the ACM-SIGKDD International Conference on Knowledge Discovery and Data Mining <strong>(SIGKDD)</strong>, 2023.</div>
+        </li>
+
+        <li>
+          <div class="paper-title-line"><strong>Scalable and Effective Bipartite Network Embedding.</strong>
+            <span class="paper-links"><span>[pdf]</span></span>
+          </div>
+          <div class="paper-authors">Renchi Yang, Jieming Shi, <strong>Keke Huang</strong>, and Xiaokui Xiao.</div>
+          <div class="paper-venue">Proceedings of the ACM SIGMOD International Conference on Management of Data <strong>(SIGMOD)</strong>, 2022.</div>
+        </li>
+
+        <li>
+          <div class="paper-title-line"><strong>Optimal Streaming Algorithms for Multi-Armed Bandits.</strong>
+            <span class="paper-links">
+              <a href="https://proceedings.mlr.press/v202/jin23d.html" target="_blank" rel="noopener noreferrer">[pdf]</a>
+            </span>
+          </div>
+          <div class="paper-authors">Tianyuan Jin, <strong>Keke Huang</strong>, Jing Tang, and Xiaokui Xiao.</div>
+          <div class="paper-venue">Proceedings of the International Conference on Machine Learning <strong>(ICML)</strong>, 2021.</div>
+        </li>
+
+        <li>
+          <div class="paper-title-line"><strong>Almost Optimal Anytime Algorithm for Batched Multi-Armed Bandits.</strong>
+            <span class="paper-links">
+              <a href="https://proceedings.mlr.press/v139/jin21e.html" target="_blank" rel="noopener noreferrer">[pdf]</a>
+            </span>
+          </div>
+          <div class="paper-authors">Tianyuan Jin, Jing Tang, Pan Xu, <strong>Keke Huang</strong>, Xiaokui Xiao, and Quanquan Gu.</div>
+          <div class="paper-venue">Proceedings of the International Conference on Machine Learning <strong>(ICML)</strong>, 2021.</div>
+        </li>
+
+        <li>
+          <div class="paper-title-line"><strong>Unconstrained Submodular Maximization with Modular Costs: Tight Approximation and Application to Profit Maximization.</strong>
+            <span class="paper-links"><span>[pdf]</span></span>
+          </div>
+          <div class="paper-authors">Tianyuan Jin, Yu Yang, Renchi Yang, Jieming Shi, <strong>Keke Huang</strong>, and Xiaokui Xiao.</div>
+          <div class="paper-venue">Proceedings of the VLDB Endowment <strong>(PVLDB)</strong>, 2021.</div>
+        </li>
+
+        <li>
+          <div class="paper-title-line"><strong>Effective and Scalable Clustering on Massive Attributed Graphs.</strong>
+            <span class="paper-links">
+              <a href="https://arxiv.org/abs/2104.09114" target="_blank" rel="noopener noreferrer">[arXiv]</a>
+            </span>
+          </div>
+          <div class="paper-authors">Renchi Yang, Jieming Shi, Yin Yang, <strong>Keke Huang</strong>, Shiqi Zhang, Xiaokui Xiao</div>
+          <div class="paper-venue">Proceedings of The Web Conference <strong>(TheWebConf)</strong> 2021.</div>
+        </li>
+
+        <li>
+          <div class="paper-title-line"><strong>Efficient Approximation Algorithms for Adaptive Influence Maximization.</strong>
+            <span class="paper-links">
+              <a href="https://www.vldb.org/pvldb/vol13/p2056-tang.pdf" target="_blank" rel="noopener noreferrer">[pdf]</a>
+              <a href="https://arxiv.org/abs/1908.07163" target="_blank" rel="noopener noreferrer">[arXiv]</a>
+              <span>[code]</span>
+            </span>
+          </div>
+          <div class="paper-authors"><strong>Keke Huang</strong>*, Jing Tang*, Kai Han, Xiaokui Xiao, Wei Chen, Aixin Sun, Xueyan Tang, and Andrew Lim.</div>
+          <div class="paper-venue">The International Journal on Very Large Data Bases <strong>(VLDBJ)</strong>, 2020.</div>
+        </li>
+
+        <li>
+          <div class="paper-title-line"><strong>Efficient Approximation Algorithms for Adaptive Target Profit Maximization.</strong>
+            <span class="paper-links">
+              <a href="https://ieeexplore.ieee.org/document/9101304" target="_blank" rel="noopener noreferrer">[pdf]</a>
+              <a href="https://arxiv.org/abs/1910.13073" target="_blank" rel="noopener noreferrer">[arXiv]</a>
+            </span>
+          </div>
+          <div class="paper-authors"><strong>Keke Huang</strong>, Jing Tang, Xiaokui Xiao, Aixin Sun, and Andrew Lim.</div>
+          <div class="paper-venue">Proceedings of the IEEE International Conference on Data Engineering <strong>(ICDE)</strong>, 2020.</div>
+        </li>
+
+        <li>
+          <div class="paper-title-line"><strong>Best Bang for the Buck: Cost-Effective Seed Selection for Online Social Networks.</strong>
+            <span class="paper-links"><span>[pdf]</span></span>
+          </div>
+          <div class="paper-authors">Kai Han, Yuntian He, <strong>Keke Huang</strong>, Xiaokui Xiao, Shaojie Tang, Jingxin Xu, Liusheng Huang.</div>
+          <div class="paper-venue">IEEE Transactions on Knowledge and Data Engineering <strong>(TKDE)</strong>, 2019.</div>
+        </li>
+
+        <li>
+          <div class="paper-title-line"><strong>Efficient Approximation Algorithms for Adaptive Seed Minimization.</strong>
+            <span class="paper-links">
+              <a href="https://dl.acm.org/doi/10.1145/3299869.3319895" target="_blank" rel="noopener noreferrer">[pdf]</a>
+              <a href="https://arxiv.org/abs/1907.09668" target="_blank" rel="noopener noreferrer">[arXiv]</a>
+              <span>[code]</span>
+            </span>
+          </div>
+          <div class="paper-authors">Jing Tang*, <strong>Keke Huang</strong>*, Xiaokui Xiao, Laks V.S. Lakshmanan, Xueyan Tang, Aixin Sun, and Andrew Lim.</div>
+          <div class="paper-venue">Proceedings of the ACM SIGMOD International Conference on Management of Data <strong>(SIGMOD)</strong>, 2019.</div>
+        </li>
+
+        <li>
+          <div class="paper-title-line"><strong>Efficient Algorithms for Adaptive Influence Maximization.</strong>
+            <span class="paper-links">
+              <a href="https://www.vldb.org/pvldb/vol11/p1029-han.pdf" target="_blank" rel="noopener noreferrer">[pdf]</a>
+            </span>
+          </div>
+          <div class="paper-authors">Kai Han*, <strong>Keke Huang</strong>*, Xiaokui Xiao*, Jing Tang, Aixin Sun, Xueyan Tang.</div>
+          <div class="paper-venue">Proceedings of the VLDB Endowment <strong>(PVLDB)</strong>, 11(9):1029-1040, 2018.</div>
+        </li>
+
+        <li>
+          <div class="paper-title-line"><strong>Revisiting the Stop-and-Stare Algorithms for Influence Maximization.</strong>
+            <span class="paper-links">
+              <a href="https://www.vldb.org/pvldb/vol10/p913-huang.pdf" target="_blank" rel="noopener noreferrer">[pdf]</a>
+            </span>
+          </div>
+          <div class="paper-authors"><strong>Keke Huang</strong>, Sibo Wang, Glenn Bevilacqua, Xiaokui Xiao, and Laks V.S. Lakshmanan.</div>
+          <div class="paper-venue">Proceedings of the VLDB Endowment <strong>(PVLDB)</strong>, 10(9):913-924, 2017.</div>
+        </li>
+      </ol>
     </section>
   </main>
 
