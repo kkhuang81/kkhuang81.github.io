@@ -109,12 +109,15 @@ section {
 
 h1, h2 {
   line-height: 1.25;
-  color: #111827;
+  color: #5f7fbe;
   margin: 0 0 14px;
   font-weight: 600;
 }
 
-h1 { font-size: 2.2rem; }
+h1 {
+  font-size: 2.2rem;
+}
+
 h2 {
   font-size: 1.35rem;
   padding-bottom: 6px;
