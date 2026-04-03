@@ -128,7 +128,7 @@ p, ul { margin: 0 0 14px; }
 
 .title {
   font-size: 1.08rem;
-  color: var(--muted);
+  color: var(--text);
   margin-bottom: 8px;
 }
 
