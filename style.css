@@ -193,6 +193,17 @@ code {
   color: #c62828;
 }
 
+.visitor-map-section {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.visitor-map img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+
 @media (max-width: 760px) {
   body { font-size: 17px; }
   .hero {
