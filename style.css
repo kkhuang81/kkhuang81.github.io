@@ -189,6 +189,10 @@ code {
   margin: 0;
 }
 
+.recruit-note {
+  color: #c62828;
+}
+
 @media (max-width: 760px) {
   body { font-size: 17px; }
   .hero {
