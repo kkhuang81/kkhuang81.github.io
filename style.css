@@ -180,9 +180,9 @@ code {
 
 .contact-links-row {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  gap: 16px;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .contact-links-row p {
